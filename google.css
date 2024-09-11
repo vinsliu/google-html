@@ -58,7 +58,7 @@ header {
 
 #profile {
   border-radius: 2rem;
-  width: 3rem;
+  width: 2.5rem;
 }
 
 section {
@@ -82,13 +82,22 @@ section {
   width: 100%;
 }
 
+svg{
+  background-color: transparent;
+}
 
+.btn {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  margin-left: 10px;
+}
 
 input {
   height: 50px;
   background-color: #fff;
   border: none;
   width: 80%;
-  padding-inline: 0;
+  padding-inline: 0.5rem;
   outline: 0;
 }
